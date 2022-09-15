@@ -12,6 +12,7 @@ import { AppProvider } from '/@/components/Application';
 import { useTitle } from '/@/hooks/web/useTitle';
 import { useLocale } from '/@/locales/useLocale';
 
+// support Multi-language
 const { getAntdLocale } = useLocale();
 
 // Listening to page changes and dynamically changing site titles
